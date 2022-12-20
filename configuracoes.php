@@ -8,7 +8,7 @@
         <div class="form-group col-md-12">
             <label for="cor">Seleciona a cor do titulo:</label>
             <select id="cor" required class="form-control">
-                <option selected>Escolher...</option>
+                <option value="">Escolher...</option>
                 <option value="#0000FF">Azul</option>
                 <option value="#000000">Preto</option>
                 <option value="#008000">Verde</option>
@@ -21,7 +21,7 @@
         <div class="form-group col-md-12">
             <label for="fonte">Seleciona a fonte do titulo:</label>
             <select id="fonte" required class="form-control">
-                <option selected>Escolher...</option>
+                <option value="">Escolher...</option>
                 <option value="Hanken Grotesk">'Hanken Grotesk</option>
                 <option value="PT Sans">PT Sans</option>
                 <option value="Roboto">Roboto</option>
@@ -30,7 +30,7 @@
             </select>
         </div>
     </div>
-    <button type="submit" class="btn btn-info w-100">Salvar</button>
+    <button type="submit" id="btn_salvar_configuracoes" class="btn btn-info w-100">Salvar</button>
 </form>
 
 <p class="text-center mt-3">
