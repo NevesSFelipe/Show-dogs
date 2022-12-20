@@ -49,6 +49,16 @@ function salvarConfiguracoes()
             localStorage.setItem('cor', corSeleciona);
             localStorage.setItem('fonte', fonteSelecionada);
             localStorage.setItem('data_hora', dataHora);
+
+            $('#msgSucesso').append(
+                '<div class="alert alert-success text-center mt-2" role="alert">' +
+                    'Configuração do titulo atualizada com sucesso.' +
+                '</div>'
+            );
+
+            setTimeout(function() {
+                window.location.href = 'index.php';
+            }, 2000)
         }            
     });
 }

@@ -42,5 +42,29 @@ function buscarImagem()
    })
    .done(function(msg){
        $('#img_dog').attr('src', msg);
+
+       $('#msgSucesso').append(
+            '<div class="alert alert-success text-center mt-2" role="alert">' +
+                'Dog encontrado com sucesso.' +
+            '</div>'
+        );
+
+        salvarResultadoBusca();
    });
+}
+
+function salvarResultadoBusca()
+{
+    var dataHora = new Date().toLocaleString();
+    var racaProcurada = $('#raca').val();
+    var nomeDefinido = $('#nome').val();
+    var imgDog = $('#img_dog').attr('src');
+
+    if(racaProcurada && nomeDefinido) {
+        localStorage.setItem('data_hora_busca', dataHora);
+        localStorage.setItem('raca_procurada', racaProcurada);
+        localStorage.setItem('nome', nomeDefinido);
+        localStorage.setItem('img', imgDog);
+    }        
+            
 }

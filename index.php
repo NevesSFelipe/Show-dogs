@@ -24,6 +24,7 @@
                     </div>
                     <button type="button" id="btn_busca_dog" class="btn btn-info w-100">Buscar</button>
                 </form>
+                <span id="msgSucesso"></span>
             </div>
         </div>
     </div>

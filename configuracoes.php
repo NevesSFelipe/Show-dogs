@@ -30,10 +30,15 @@
             </select>
         </div>
     </div>
-    <button type="submit" id="btn_salvar_configuracoes" class="btn btn-info w-100">Salvar</button>
+    <button type="button" id="btn_salvar_configuracoes" class="btn btn-info w-100">Salvar</button>
 </form>
 
+<span id="msgSucesso"></span>
+
 <p class="text-center mt-3">
+
+    Exemplo:
+
     <span class="modelo-texto"><b>Nome do Dog:</b></span> <span id="nome-dog">-</span> |
 
     <span class="modelo-texto"><b>Raça:</b></span> <span id="raca-dog">-</span>
