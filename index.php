@@ -36,7 +36,7 @@
 
                     <span class="dados-titulo"><b>Raça:</b></span> <span id="raca_dog">-</span>
                 </h5>
-                <img id="img_dog" src="" alt="Sem Imagem" />
+                <img id="img_dog" src="https://static.wixstatic.com/media/724310_097607ea8ae34fa290b7e59af523a876~mv2.png/v1/fill/w_460,h_362,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/cachorrinho.png" alt="Sem Imagem" />
             </div>
         </div>
     </div>

@@ -1,6 +1,7 @@
 $(document).ready(function(){
     carregarConfiguracoesTextoTitulo();
     configurarTextoTitulo();
+    carregarDadosDogConsultado();
 });
 
 function carregarConfiguracoesTextoTitulo()
@@ -11,6 +12,19 @@ function carregarConfiguracoesTextoTitulo()
     if(corConfigurada && fonteConfigurada) {
         $('.dados-titulo').css("color", corConfigurada);
         $('.dados-titulo').css("font-family", fonteConfigurada);
+    }
+}
+
+function carregarDadosDogConsultado()
+{
+    var racaProcurada = localStorage.getItem('raca_procurada');
+    var nomeDefinido = localStorage.getItem('nome');
+    var imgDog = localStorage.getItem('img');
+
+    if(racaProcurada && nomeDefinido && imgDog) {
+        $('#raca_dog').text(racaProcurada);
+        $('#nome_dog').text(nomeDefinido);
+        $('#img_dog').attr('src', imgDog);
     }
 }
 
