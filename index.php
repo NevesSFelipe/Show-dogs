@@ -22,7 +22,7 @@
                             <input type="text" class="form-control" id="nome" />
                         </div>
                     </div>
-                    <button type="submit" class="btn btn-info w-100">Montar</button>
+                    <button type="button" id="btn_busca_dog" class="btn btn-info w-100">Montar</button>
                 </form>
             </div>
         </div>
@@ -35,7 +35,7 @@
 
                     <span class="dados-titulo"><b>Raça:</b></span> <span id="raca-dog">-</span>
                 </h5>
-                <img src="" alt="Sem Imagem" />
+                <img id="img_dog" src="" alt="Sem Imagem" />
             </div>
         </div>
     </div>

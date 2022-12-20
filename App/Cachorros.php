@@ -29,6 +29,20 @@ class Cachorros {
         curl_close($this->curl);
     }
 
+    public function buscarImagem(string $raca)
+    {
+        curl_setopt_array($this->curl, [
+            CURLOPT_URL => "https://dog.ceo/api/breed/$raca/images/random",
+            CURLOPT_CUSTOMREQUEST => 'GET',
+            CURLOPT_RETURNTRANSFER => true
+        ]);   
+
+        $imgEncotrada = json_decode(curl_exec($this->curl), true);
+
+        echo $imgEncotrada['message'];
+
+        curl_close($this->curl);
+    }
 }
 
 
