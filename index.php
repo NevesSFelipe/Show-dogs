@@ -1,6 +1,6 @@
 <?php require_once 'includes/header.php'; ?>
 
-<h1 class="text-info">Monte o seu dog</h1>
+<h1 class="text-info">Procure um dog</h1>
 <hr class="bg-info" />
 
 <div class="row">
@@ -22,7 +22,7 @@
                             <input type="text" class="form-control" id="nome" />
                         </div>
                     </div>
-                    <button type="button" id="btn_busca_dog" class="btn btn-info w-100">Montar</button>
+                    <button type="button" id="btn_busca_dog" class="btn btn-info w-100">Buscar</button>
                 </form>
             </div>
         </div>
@@ -31,9 +31,9 @@
         <div class="card">
             <div class="card-body">
                 <h5>
-                    <span class="dados-titulo"><b>Nome do Dog:</b></span> <span id="nome-dog">-</span> |
+                    <span class="dados-titulo"><b>Nome do Dog:</b></span> <span id="nome_dog">-</span> |
 
-                    <span class="dados-titulo"><b>Raça:</b></span> <span id="raca-dog">-</span>
+                    <span class="dados-titulo"><b>Raça:</b></span> <span id="raca_dog">-</span>
                 </h5>
                 <img id="img_dog" src="" alt="Sem Imagem" />
             </div>
