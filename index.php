@@ -13,7 +13,6 @@
                             <label for="raca">Seleciona a raça do seu dog</label>
                             <select id="raca" class="form-control">
                                 <option selected>Escolher...</option>
-                                <option>...</option>
                             </select>
                         </div>
                     </div>
