@@ -1,6 +1,18 @@
 $(document).ready(function(){
+    carregarConfiguracoesTextoTitulo();
     configurarTextoTitulo();
 });
+
+function carregarConfiguracoesTextoTitulo()
+{
+    var corConfigurada = localStorage.getItem('cor');
+    var fonteConfigurada = localStorage.getItem('fonte');
+
+    if(corConfigurada && fonteConfigurada) {
+        $('.dados-titulo').css("color", corConfigurada);
+        $('.dados-titulo').css("font-family", fonteConfigurada);
+    }
+}
 
 function configurarTextoTitulo()
 {

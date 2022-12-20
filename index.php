@@ -32,9 +32,9 @@
         <div class="card">
             <div class="card-body">
                 <h5>
-                    <span class="cor-titulo"><b>Nome do Dog:</b></span> <span id="nome-dog">-</span> |
+                    <span class="dados-titulo"><b>Nome do Dog:</b></span> <span id="nome-dog">-</span> |
 
-                    <span class="cor-titulo"><b>Raça:</b></span> <span id="raca-dog">-</span>
+                    <span class="dados-titulo"><b>Raça:</b></span> <span id="raca-dog">-</span>
                 </h5>
                 <img src="" alt="Sem Imagem" />
             </div>
