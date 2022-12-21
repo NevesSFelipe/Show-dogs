@@ -4,7 +4,7 @@ namespace App;
 
 class Cachorros {
 
-    private object $curl;
+    private $curl;
 
     public function __construct()
     {
@@ -29,7 +29,7 @@ class Cachorros {
         curl_close($this->curl);
     }
 
-    public function buscarImagem(string $raca)
+    public function buscarImagem($raca)
     {
         curl_setopt_array($this->curl, [
             CURLOPT_URL => "https://dog.ceo/api/breed/$raca/images/random",

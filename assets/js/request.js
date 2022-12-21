@@ -43,8 +43,10 @@ function buscarImagem()
    .done(function(msg){
        $('#img_dog').attr('src', msg);
 
+       $('#alerta').remove();
+
        $('#msgSucesso').append(
-            '<div class="alert alert-success text-center mt-2" role="alert">' +
+            '<div id="alerta" class="alert alert-success text-center mt-2" role="alert">' +
                 'Dog encontrado com sucesso.' +
             '</div>'
         );
