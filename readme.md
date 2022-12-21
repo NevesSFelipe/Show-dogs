@@ -10,3 +10,5 @@ Instruções para executar:
 2. Clone o projeto com: git clone https://github.com/NevesSFelipe/Show-dogs.git
 3. Entre no projeto, e execute: composer install
 4. Agora só subir o servidor e testar.
+
+ou pode conferir o projeto em 'produção' [AQUI](http://show-dogs.epizy.com/index.php)
